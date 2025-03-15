@@ -46,3 +46,13 @@ This project is built with .
 - React
 - shadcn-ui
 - Tailwind CSS
+
+This will launch the development server, likely at http://localhost:8080 (as configured in your vite.config.ts).
+
+You'll need to have Node.js and npm installed on your machine. If you don't have them, you can install them via nvm (Node Version Manager) or download directly from the Node.js website.
+
+For the Supabase authentication to work properly, you'll need to set up your environment variables. Create a .env file in the root of your project with your Supabase URL and anon key:
+
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+You can find these values in your Supabase project dashboard under Project Settings > API.
